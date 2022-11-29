@@ -20,6 +20,7 @@ yes | cp -rf lightdm.conf /etc/lightdm
 
 #Copy startup files to correct folders
 cp startup.sh /usr/local/share
+mkdir ~/.config/autostart
 cp start.desktop ~/.config/autostart
 
 #Install and Setup FTP server
