@@ -23,7 +23,7 @@ https://en.wikipedia.org/wiki/British_and_American_keyboards#/media/File:KB_Unit
 
 The zip file you need is in the following url. Type the url manually into the browser address line.
 
-https://github.com/ahaahr/DASDisplays/blob/master/scripts/setup.zip
+https://github.com/ahaahr/DASDisplays/blob/master/setup.zip
 
 Save it in the Downlaod folder (that's the default location) and unzip it by opening the terminal and typing the following commands:
 
