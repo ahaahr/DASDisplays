@@ -20,19 +20,17 @@ yes | cp -rf lightdm.conf /etc/lightdm
 
 #Copy startup files to correct folders
 cp startup.sh /usr/local/share
-mkdir ~/.config/autostart
-cp start.desktop ~/.config/autostart
+mkdir -p /home/rock/.config/autostart
+cp startup.desktop /home/rock/.config/autostart
 
 #Install and Setup FTP server
 yes | apt install vsftpd
 systemctl enable vsftpd
 echo "rock" | tee -a /etc/vsftpd.userlist
-chmod -R 750 /home/rock/Desktop
-chown -R rock: /home/rock/Desktop
-yes | cp -f vsftpd.conf /etc
+cp -f vsftpd.conf /etc
 
 #Copy the default video to the desktop
-cp video.mp4 ~/Desktop
+cp video.mp4 /home/rock/Desktop
 
 #Reboot
 reboot
