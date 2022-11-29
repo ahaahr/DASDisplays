@@ -30,5 +30,8 @@ chmod -R 750 /home/rock/Desktop
 chown -R rock: /home/rock/Desktop
 yes | cp -f vsftpd.conf /etc
 
+#Copy the default video to the desktop
+cp video.mp4 ~/Desktop
+
 #Reboot
 reboot
