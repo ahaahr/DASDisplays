@@ -13,7 +13,7 @@ yes | apt update
 yes | apt upgrade
 
 #Install VLC Player
-apt install vlc
+yes | apt install vlc
 
 #Disable the login screen
 yes | cp -rf lightdm.conf /etc/lightdm
