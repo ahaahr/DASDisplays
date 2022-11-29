@@ -34,6 +34,6 @@ sudo sh setup.sh
 
 It will ask you for a password. Type: rock
 
-You will be prompted to answer Y/n after a few seconds. Type Y and press enter. The script will tage a couple of minutes to run. After completing it should reboot and the default video will be displayed. 
+The script will tage a couple of minutes to run. After completing it should reboot and the default video will be displayed. 
 
 The video can be changed by replacing the file called video.mp4 in ~/Desktop.
