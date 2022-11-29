@@ -29,7 +29,7 @@ Save it in the Downlaod folder (that's the default location) and unzip it by ope
 
 cd Downloads
 unzip setup.zip
-cd setup
+cd scripts
 sudo sh setup.sh
 
 It will ask you for a password. Type: rock
