@@ -22,7 +22,7 @@ yes | cp -rf lightdm.conf /etc/lightdm
 cp startup.sh /usr/local/share
 mkdir -p /home/rock/.config/autostart
 cp startup.desktop /home/rock/.config/autostart
-chmod +x /home/rock/.config/autostart/startup.desktop
+chmod +x /usr/local/share/startup.sh
 
 #Install and Setup FTP server
 yes | apt install vsftpd
