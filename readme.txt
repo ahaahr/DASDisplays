@@ -1,7 +1,5 @@
 Readme for the DAS screen setup.
 
-First section explains how to setup a Rock Pi from scratch and the second section explains how to update the video content using FTP.
-
 Each screen has it's own Rock Pi computer except for one of them whoch has a Raspberry Pi computer. The Rock Pis are running Debian Linux. The Raspberry is running Raspberry OS which is a port of Debian. That means that setup on the Raspberry is similar to set on the Rock Pis.
 
 If the Rock Pi is brand new, it needs an operating system. We use Debian Bulls Eye. Installation is easy, but requires and sd card and sd card reader. More info here:
